@@ -21,15 +21,15 @@
 
 1. **睡眠消耗 ($E_{\text{sleep}}$)**：
    * **原理**：睡眠時的代謝率略低於清醒時的 BMR。文獻指出約為 BMR 的 $0.95$ 倍。
-   * **公式**：$$E_{\text{sleep}} = 0.95 \times \text{BMR} \times \frac{8}{24}$$ （固定假設每日基礎睡眠為 8 小時）。
+   * **公式**：$E_{\text{sleep}} = 0.95 \times \text{BMR} \times \frac{8}{24}$ （固定假設每日基礎睡眠為 8 小時）。
    
 2. **運動消耗 ($E_{\text{ex}}$)**：
    * **原理**：依據**美國運動醫學會 (ACSM)** 的代謝當量 (MET) 定義。$1 \text{ MET}$ 代表每公斤體重每小時消耗 $1 \text{ kcal}$（基於氧氣消耗量 $3.5 \text{ mL/kg/min}$）。
-   * **公式**：$$E_{\text{ex}} = \sum (\text{MET}_i \times W \times \text{Hours}_i)$$
+   * **公式**：$E_{\text{ex}} = \sum (\text{MET}_i \times W \times \text{Hours}_i)$
    
 3. **靜態清醒消耗 ($E_{\text{rest}}$)**：
    * **原理**：扣除睡眠 8 小時與運動時間 ($T_{\text{ex}}$) 後的剩餘時間，視為基礎清醒狀態（基礎代謝率 1.0 倍）。
-   * **公式**：$$E_{\text{rest}} = \text{BMR} \times \frac{16 - T_{\text{ex}}}{24}$$
+   * **公式**：$E_{\text{rest}} = \text{BMR} \times \frac{16 - T_{\text{ex}}}{24}$
 
 ### 【總結 TDEE 公式】
 將上述三者相加，並化簡後得到系統底層的運算式：
