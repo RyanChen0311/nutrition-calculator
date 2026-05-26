@@ -1,5 +1,7 @@
 # 每日營養需求計算器 
 
+🔗 **線上使用**：[https://ryanchen0311.github.io/nutrition-calculator/](https://ryanchen0311.github.io/nutrition-calculator/)
+
 一個基於純前端技術（HTML5 / CSS3 / Vanilla JS）打造的精準營養與熱量消耗計算工具。無需任何後端伺服器或 API 串接，所有計算均在瀏覽器本地即時完成，兼具極佳的隱私性與回應速度。
 
 > 💡 **科學依據與公式證明**：本工具底層的所有數學模型、動態係數設計以及完整的學術文獻來源，均詳細記載於 [proof.md](./proof.md) 文件中。
